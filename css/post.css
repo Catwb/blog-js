@@ -1,0 +1,27 @@
+/* 默认情况下（移动设备），保持单排列 */
+.post-wrapper {
+    display: block;
+  }
+  
+  .post {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* 在电脑端（屏幕宽度大于 768px）时，采用双排列布局 */
+  @media (min-width: 768px) {
+    .post-list {
+      column-count: 2;
+      column-gap: 20px;
+    }
+  
+    .post-wrapper {
+      break-inside: avoid;
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 20px;
+      vertical-align: top;
+      position: relative;
+      overflow: hidden;
+    }
+  }
