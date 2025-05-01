@@ -9,19 +9,17 @@
   }
   
   /* 在电脑端（屏幕宽度大于 768px）时，采用双排列布局 */
-  @media (min-width: 768px) {
-     .post-list {
-       column-count: 2;
-       column-gap: 20px;
-     }
-   
-     .post-wrapper {
-       break-inside: avoid;
-       display: inline-block;
-       width: 100%;
-       margin-bottom: 20px;
-       vertical-align: top;
-       position: relative;
-       overflow: hidden;
-     }
-   }
+@media (min-width: 768px) {
+  .post-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .post-wrapper {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    vertical-align: top;
+  }
+}
