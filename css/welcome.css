@@ -17,14 +17,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.3);
+    filter: blur(5px);
     transition: opacity 0.3s;
     cursor: pointer;
-}
-
-.ip-mist:hover {
-    opacity: 0;
 }
 
 .ip-text {
