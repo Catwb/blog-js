@@ -257,7 +257,7 @@ function showWelcome() {
 
     if (welcomeInfoElement) {
         welcomeInfoElement.innerHTML =
-            `欢迎来自 <b><span style="color: var(--anzhiyu-main)">${pos}</span></b> 的小友💖<br>当前位置距博主约 <b><span style="color: var(--anzhiyu-main)">${dist.toFixed(2)}</span></b> 公里！<br>${timeChange}<br>Tip：<b><span style="font-size: 15px;">${posdesc}</span></b>`;
+            `欢迎来自 <b><span style="color: var(--anzhiyu-main)">${pos}</span></b> 的小友💖<br>当前位置距博主约 <b><span style="color: var(--anzhiyu-main)">${dist.toFixed(2)}</span></b> 公里！<br><div class="ip-container"><div class="ip-mist"></div><span class="ip-text">IP地址：<b><span style="color: var(--anzhiyu-main)">${ip}</span></b></span></div><br>${timeChange}<br>Tip：<b><span style="font-size: 15px;">${posdesc}</span></b>`;
     } else {
         console.log("Pjax无法获取元素");
     }
@@ -274,7 +274,6 @@ function isHomePage() {
     return window.location.pathname === '/' || window.location.pathname === '/index.html';
 }
 
-
 // 添加pjax:complete事件监听
 window.onload = function () {
     if (isHomePage()) {
@@ -282,3 +281,13 @@ window.onload = function () {
     }
     document.addEventListener("pjax:complete", handlePjaxComplete);
 };
+
+// 为移动设备添加触摸事件
+document.addEventListener('DOMContentLoaded', function() {
+    const ipMistElements = document.querySelectorAll('.ip-mist');
+    ipMistElements.forEach(element => {
+        element.addEventListener('touchstart', function() {
+            this.style.opacity = '0';
+        });
+    });
+});
