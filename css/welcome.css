@@ -1,14 +1,30 @@
-#welcome-info {
-    white-space: pre-wrap;
-    border-radius: 14px;
-    --kouseki-welcome-color: #49B1F5;
+:root {
     --kouseki-ip-color: #49B1F5;
-    --kouseki-gl-size: 16px !important;
+    --kouseki-welcome-color: #1E90FF;
+}
+
+#welcome-info {
+    background-color: white;
+    padding: 16px;
+    border-radius: 12px;
+    color: var(--kouseki-welcome-color);
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+span {
+    margin-right: 5px;
 }
 
 .ip-container {
     position: relative;
     display: inline-block;
+    padding: 8px 16px;
+    margin: 10px 0;
+    border-radius: 6px;
+    background-color: rgba(73, 177, 245, 0.1);
 }
 
 .ip-mist {
@@ -21,9 +37,40 @@
     filter: blur(5px);
     transition: opacity 0.3s;
     cursor: pointer;
+    border-radius: 6px;
 }
 
 .ip-text {
     position: relative;
     z-index: 1;
+}
+
+.heart-icon {
+    color: var(--kouseki-ip-color);
+    font-size: 24px;
+}
+
+.distance-icon {
+    color: var(--kouseki-welcome-color);
+    font-size: 18px;
+}
+
+.ip-icon {
+    color: var(--kouseki-ip-color);
+    font-size: 20px;
+}
+
+.time-icon {
+    color: var(--kouseki-welcome-color);
+    font-size: 20px;
+}
+
+.tip-icon {
+    color: var(--kouseki-ip-color);
+    font-size: 20px;
+}
+
+span.b {
+    margin-left: 5px;
+    margin-right: 5px;
 }
