@@ -60,6 +60,8 @@
   --liushen-card-border: #e3e8f7;
   --style-border-always: 1px solid var(--liushen-card-border);
   --liushen-blue: #425AEF;
+  --card-box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.05);
+  --card-hover-box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.09);
 }
 
 /* 深色模式颜色 */
