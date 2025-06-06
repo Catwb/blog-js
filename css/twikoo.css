@@ -55,10 +55,6 @@
 :root {
   --liushen-radius: 12px;
   --liushen-card-border-width: 0;
-}
-
-/* 浅色模式颜色 */
-[color-scheme='light'] {
   --liushen-border-color: #e3e8f7;
   --liushen-card-bg: #fff;
   --liushen-card-border: #e3e8f7;
@@ -91,7 +87,7 @@
 }
 
 /* 浅色模式评论区评论大框 */
-[color-scheme='light'] 
+
 .twikoo .tk-comments-container>.tk-comment,
 .twikoo .tk-comments .tk-submit {
   /* 阴影 */
@@ -99,7 +95,7 @@
 }
 
 /* 浅色模式评论区评论大框阴影悬浮加深 */
-[color-scheme='light'] 
+
 .twikoo .tk-comments-container>.tk-comment:hover,
 .twikoo .tk-comments .tk-submit:hover {
   /* 阴影（浅色模式突出层次感） */
@@ -133,13 +129,13 @@
 }
 
 /* 浅色模式设备信息 */
-[color-scheme='light'] .twikoo .tk-extra {
+.twikoo .tk-extra {
   /* 阴影 */
   box-shadow: var(--card-box-shadow);
 }
 
 /* 浅色模式设备信息阴影悬浮加深 */
-[color-scheme='light'] .twikoo .tk-extra:hover {
+.twikoo .tk-extra:hover {
   /* 阴影 */
   box-shadow: var(--card-hover-box-shadow);
 }
@@ -161,13 +157,13 @@
 }
 
 /* 浅色模式加载更多按钮 */
-[color-scheme='light'] .twikoo .tk-expand {
+.twikoo .tk-expand {
   /* 阴影 */
   box-shadow: var(--card-box-shadow);
 }
 
 /* 浅色模式加载更多按钮（鼠标悬浮时） */
-[color-scheme='light'] .twikoo .tk-expand:hover {
+.twikoo .tk-expand:hover {
   /* 阴影 */
   box-shadow: var(--card-hover-box-shadow);
   /* 背景颜色 */
