@@ -64,6 +64,16 @@
   --card-hover-box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.09);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --liushen-border-color: #42444a;
+    --liushen-card-bg: #2c2c2c;
+    --liushen-card-border: #42444a;
+    --style-border-always: 1px solid var(--liushen-card-border);
+    --liushen-blue: #0084FF;
+  }
+}
+
 /* 深色模式颜色 */
 [color-scheme='dark'] {
   --liushen-border-color: #42444a;
