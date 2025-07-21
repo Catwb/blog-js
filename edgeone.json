@@ -1,0 +1,19 @@
+{
+  "headers": [
+    {
+      "source": "/*",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "cache-control, Content-Type, Authorization" },
+        { "key": "X-CORS-Config-Source", "value": "netlify-headers" }
+      ]
+    },
+    {
+      "source": "/*",
+      "headers": [
+        { "key": "Access-Control-Max-Age", "value": "86400" }
+      ]
+    }
+  ]
+}
