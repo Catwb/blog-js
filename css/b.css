@@ -1,4 +1,8 @@
-b, strong, .menuitem, .friend-name, .friend-tags-wrapper, .tab, .summary, .toc-text, .readmore, .nav-sub {
+b, strong, .menuitem, .friend-name, .friend-tags-wrapper, .tab, .summary, .toc-text, .readmore, .title {
   font-family: '寒蝉全圆体 Bold';
   font-weight: 400; 
+}
+h1.title {
+  font-family: inherit;
+  font-weight: 400
 }
