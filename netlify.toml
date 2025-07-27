@@ -12,3 +12,8 @@
   [headers.values]
     Access-Control-Max-Age = "86400"
   method = ["OPTIONS"]  # 仅针对OPTIONS方法
+
+  [[redirects]]
+  from = "/link-checker"
+  to = "https://link-checker.245179.xyz/"
+  status = 200
