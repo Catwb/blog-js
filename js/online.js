@@ -1,4 +1,4 @@
-const WORKER_URL = 'https://online.qiyao.workers.dev/';
+const WORKER_URL = 'https://online.qiyao.workers.dev';
 
 async function ping() {
   await fetch(`${WORKER_URL}/ping`, {
