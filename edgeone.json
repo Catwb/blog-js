@@ -14,7 +14,7 @@
     {
       "source": "/link-checker",
       "destination": "https://link-checker.245179.xyz/",
-      "statusCode": 200
+      "statusCode": 301
     }
   ]
 }
