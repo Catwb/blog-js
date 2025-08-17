@@ -76,3 +76,22 @@
 .giscus .gsc-button:hover {
   background: rgba(255, 255, 255, 0.15);
 }
+
+/* 隐藏“回复”按钮 */
+.giscus .gsc-reply-button,
+.giscus .gsc-reply,
+.giscus .gsc-comment-replies,
+.giscus .gsc-comment-reply-button,
+.giscus .gsc-timeline-toggle {
+  display: none !important;
+}
+
+/* 隐藏“Reactions”区域 */
+.giscus .gsc-reactions {
+  display: none !important;
+}
+
+/* 隐藏“点赞”按钮 */
+.giscus .gsc-comment-reactions {
+  display: none !important;
+}
