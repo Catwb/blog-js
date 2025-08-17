@@ -10,13 +10,11 @@
       ]
     }
   ],
-  "routes": [
+  "redirects": [
     {
-      "path": "/link-checker",
-      "redirect": {
-        "statusCode": 200,
-        "url": "https://link-checker.245179.xyz/"
-      }
+      "source": "/link-checker",
+      "destination": "https://link-checker.245179.xyz/",
+      "statusCode": 200
     }
   ]
 }
