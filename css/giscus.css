@@ -1,0 +1,63 @@
+/* 整体容器 */
+.giscus-frame {
+  border: none;
+  background: transparent;
+}
+
+/* 评论区整体背景 */
+.giscus {
+  --color-prettylights-syntax-comment: #8b949e;
+  --color-prettylights-syntax-constant: #79c0ff;
+  --color-prettylights-syntax-string: #a5d6ff;
+  --color-prettylights-syntax-keyword: #ff7b72;
+  --color-btn-bg: rgba(255, 255, 255, 0.05);
+  --color-btn-hover-bg: rgba(255, 255, 255, 0.1);
+  --color-border-default: rgba(255, 255, 255, 0.1);
+  --color-fg-default: #ffffff;
+  --color-fg-muted: #c9d1d9;
+  --color-canvas-default: rgba(0, 0, 0, 0.3);
+  --color-canvas-subtle: rgba(255, 255, 255, 0.05);
+  font-family: "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+/* 头像圆形 */
+.giscus .gsc-comment .gsc-avatar img {
+  border-radius: 50%;
+}
+
+/* 评论内容样式 */
+.giscus .gsc-comment .gsc-comment-content {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #e6edf3;
+}
+
+/* 时间戳样式 */
+.giscus .gsc-comment .gsc-timestamp {
+  font-size: 12px;
+  color: #7d8590;
+}
+
+/* 输入框样式 */
+.giscus .gsc-comment-form {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 按钮样式 */
+.giscus .gsc-comment-form .gsc-button {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  transition: background 0.2s;
+}
+
+.giscus .gsc-comment-form .gsc-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
