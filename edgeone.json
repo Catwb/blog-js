@@ -9,5 +9,14 @@
         { "key": "Access-Control-Max-Age",       "value": "86400" }
       ]
     }
+  ],
+  "routes": [
+    {
+      "path": "/link-checker",
+      "redirect": {
+        "statusCode": 200,
+        "url": "https://link-checker.245179.xyz/"
+      }
+    }
   ]
 }
