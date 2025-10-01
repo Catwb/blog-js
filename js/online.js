@@ -1,28 +1,14 @@
-const WORKER_URL = 'https://online.qiyao.workers.dev';
+(function () {
+  const WS_URL = 'wss://online.245179.xyz/'; // 注意协议 wss
+  const el = document.getElementById('online');
+  const ws = new WebSocket(WS_URL);
 
-async function ping() {
-  await fetch(`${WORKER_URL}/ping`, {
-    method: 'POST',
-    credentials: 'include'
-  });
-}
-
-async function fetchStats() {
-  try {
-    const res = await fetch(`${WORKER_URL}/stats`, { credentials: 'include' });
-    const data = await res.json();
-    document.getElementById('online').textContent = data.online;
-  } catch {
-    document.getElementById('online').textContent = '获取失败';
-  }
-}
-
-// 立即执行一次
-ping();
-fetchStats();
-
-// 每分钟同步
-setInterval(() => {
-  ping();
-  fetchStats();
-}, 60 * 1000);
+  ws.onmessage = e => {
+    const {online} = JSON.parse(e.data);
+    el.textContent = online;
+  };
+  ws.onopen = () => setInterval(() => {
+    if (ws.readyState === WebSocket.OPEN) ws.send(JSON.stringify({type: 'pong'}));
+  }, 3000);
+  ws.onclose = () => el.textContent = '断开';
+})();
