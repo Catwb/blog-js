@@ -1,6 +1,11 @@
 {
   "friends": [
     [
+      "FurryFandomClub",
+      "https://furryfandomclub.cn",
+      "https://furryfandomclub.cn/wp-content/uploads/2025/09/cropped-FurryFandomClub_icon-scaled-2.png"
+    ],
+    [
       "阿呆",
       "https://adaiblog.github.io",
       "https://q2.qlogo.cn/headimg_dl?dst_uin=1432231192&spec=640"
@@ -118,12 +123,22 @@
     [
       "Qrasa的小站",
       "https://blog.qrasa.cn/",
-      null
+      "https://blog.qrasa.cn/wp-content/uploads/2025/11/cropped-1764501521-3ca59cafd35748c38efd5d624a25243a-e1765684431787.jpeg"
+    ],
+    [
+      "Rimuru’s Blog",
+      "https://blog.rimuru.work/",
+      "https://blog.rimuru.work/cdn-cgi/image/format=auto,quality=85,fit=contain,width=128,height=128/images/favicon.png"
     ],
     [
       "Sakitami 的集装箱",
       "https://blog.skihome.xyz",
       "https://blog.skihome.xyz/uploads/avatar.jpg"
+    ],
+    [
+      "沈幼楚の小窝",
+      "https://blog.shenyouchu.cn/",
+      "https://q1.qlogo.cn/g?b=qq&nk=1050925710&s=640"
     ],
     [
       "胜天半子",
