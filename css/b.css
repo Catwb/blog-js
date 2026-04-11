@@ -1,6 +1,6 @@
-b, strong, .menuitem, .friend-name, .friend-tags-wrapper, .tab, .summary, .toc-text, .readmore, .title, .name, .post-title {
+b, strong, .menuitem, .friend-name, .friend-tags-wrapper, .readmore, .title, .name, .post-title {
   font-family: 'LXGW WenKai';
-  font-weight: 700; 
+  font-weight: 700 !important; 
 }
 h1.title {
   font-family: inherit;
