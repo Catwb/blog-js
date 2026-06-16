@@ -1,219 +1,306 @@
-- name: 阿呆
-  url: https://adai.fun
-  avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1432231192&spec=640
-  quote: 分享学习有趣的知识
-  feed: https://adai.fun/atom.xml
+- title: FurryFandomClub
+  url: https://furryfandomclub.cn
+  icon: https://furryfandomclub.cn/wp-content/uploads/2025/09/cropped-FurryFandomClub_icon-scaled-2.png
+  description: 超棒的Furry聚集地
 
-- name: 布丁の小窝
-  url: https://www.furryowo.top/
-  quote: 一个有梦想的咸鱼
-  avatar: https://dn-qiniu-avatar.qbox.me/avatar/7da7e82f04de94c795db0301c3397bb6
-  feed: https://www.furryowo.top/feed
+- title: 阿呆
+  url: https://adaiblog.github.io
+  cover:
+  icon: https://q2.qlogo.cn/headimg_dl?dst_uin=1432231192&spec=640
+  description: 分享学习有趣的知识
+  color:
 
-- name: Creeper005の小站
-  url: https://normal.qrasa.top/
-  quote: 坐牢日常
-  avatar: https://normal.qrasa.top/img/avatar.png
-  feed: https://normal.qrasa.top/atom.xml
-
-- name: Cysime Moflu
-  url: https://blog.cysi.me
-  avatar: https://image.glaceon.net/uploads/202205012353016.jpg
-  quote: 再不会遇见第二个时光
-  feed: false
-
-- name: fishcpy的小破站
-  url: https://blog.fis.ink
-  avatar: https://www.fis.ink/img/logo.png
-  quote: 非淡泊无以明志，非宁静无以致远
-  feed: https://blog.fis.ink/rss.xml
-
-- name: GoodBoyboy's Blog
-  url: https://blog.goodboyboy.top/
-  quote: 惬意小屋 - 点滴记忆
-  avatar: https://gravatar.goodboyboy.top/avatar/9da9d1d515d273d4794015f2321f6e04?s=96&d=monsterid&r=g
-  feed: https://blog.goodboyboy.top/atom.xml
-
-- name: Hello I'm 0o酱
-  url: https://blog.im0o.top/
-  avatar: https://image.im0o.top/files/202112021204213.jpg
-  quote: 光阴如梦，昨日随风
-  feed: https://blog.im0o.top/atom.xml
-
-- name: 孤熵小狼
-  url: https://blog.furen.link
-  avatar: https://blog.furen.link/upload/shang.webp
-  quote: 趁年轻，多闯荡
-  feed: https://blog.furen.link/atom.xml
-
-- name: 幻想の日常
-  url: https://blog.someo.top
-  quote: 心随幻想，梦行无疆
-  avatar: https://blog.someo.top/data/img/tx.jpeg
-  feed: https://blog.someo.top/rss.xml
-
-- name: 猎空のBlog
-  url: https://blog.lie-kong.top
-  quote: 一只狼龙的仓库
-  avatar: https://avatars.githubusercontent.com/u/109675857?v=4
-  feed: false
-
-- name: 陆小启Kairo
-  avatar: https://s21.ax1x.com/2025/02/23/pElRBdO.jpg
-  url: https://blog.luxq.space
-  quote: 往者不谏，来者可追
-  screenshot: https://s21.ax1x.com/2025/02/24/pE1uKeg.png
-  feed: false
-
-- name: LynxCatTheThird
-  url: https://www.lynx3.me/
-  avatar: https://s2.hdslb.com/bfs/article/621ceaa1fcd3b63bfb3d7d3948bd93647ac50b72.png@1e_1c.webp
-  quote: 我是山猫三号，一个来自一百零三世纪的强人工智能。
-  feed: false
-
-- name: 梦爱吃鱼
-  avatar: https://oss-cdn.bsgun.cn/logo/avatar.256.png
-  url: https://blog.bsgun.cn/
-  quote: 但愿日子清静抬头遇见的满是柔情
-  feed: https://blog.bsgun.cn/atom.xml
-
-- url: https://www.xscnas.top
-  avatar: https://www.xscnas.top/avatar1.jpg
-  name: Mete0r's Blog | 壹人小站
-  quote: Trust the process.
-  screenshot: https://img.xscnas.top//i/2025/05/01/6813291a49436.png
-  feed: https://www.xscnas.top/feed.xml
-
-- name: 墨离的博客
-  url: https://furrycon.top/
-  quote: 方生方死，方死方生
-  avatar: https://furrycon.top/favicon.ico
-  feed: false
-
-- name: Mo的记事簿
-  avatar: https://blog.xiowo.net/img/avatar.png
-  url: https://blog.xiowo.net/
-  screenshot: https://bu.dusays.com/2024/11/09/672f779669ef8.jpg
-  quote: 万年鸽王，哈哈OvO
-  feed: https://blog.xiowo.net/atom.xml
-
-- name: Moziの魔法小屋
-  url: http://mozi-ai.xyz/
-  avatar: http://mozi-ai.xyz:1024/api/file/getImage/202504/11386397875gDoP7q3NE.png
-  quote: 如果你遇到太阳而落泪,你也将错过群星
-  screenshot: http://mozi-ai.xyz:1024/api/file/getImage/202504/11386397879IEvjtJNb9.png
-  feed: false
-
-- name: 沫泽的小站
-  url: https://blog.pmoze.top/
-  quote: 一个技术宅的小窝
-  avatar: https://blog.pmoze.top/wp-content/uploads/site.png
-  feed: https://blog.pmoze.top/rss
-
-- name: Noah's blog
-  url: https://blog.noah0932.top
-  quote: 努力去发光，而不是被照亮
-  avatar: https://cdn.tulan.cyou/2025/06/29/Image_13149668686090.jpg
-  screenshot: https://cdn.tulan.cyou/2025/06/29/Screenshot_20250629_144645.jpg
-  feed: https://blog.noah0932.top/rss.xml
-
-- name: PeterJXL
-  avatar: https://image.peterjxl.com/blog/re0.jpg
-  url: https://www.peterjxl.com
-  quote: 从 01 开始
-  feed: https://www.peterjxl.com/rss.xml
-
-- name: Qrasa的小站
-  url: https://blog.qrasa.cn/
-  quote: 记录一些活着的日常
-  avatar: https://qrasa.cn/assets/avatar.webp
-  feed: https://blog.qrasa.cn/feed/
-
-- name: Sakitami 的集装箱
-  url: https://blog.skihome.xyz
-  quote: 我已经无敌了！
-  avatar: https://blog.skihome.xyz/uploads/avatar.jpg
-  feed: https://blog.skihome.xyz/feed
-
-- name: 胜天半子
-  avatar: https://i1.wp.com/ruom.wuaze.com/i/2024/11/02/166823.webp
-  url: https://blog.291055.xyz/
-  screenshot: https://i1.wp.com/ruom.wuaze.com/i/2024/11/08/350149.webp
-  quote: 事已至此，先吃饭吧😋
-  feed: false
-
-- name: 糖菓·部落
-  avatar: https://candinya.com/images/candinya.webp
-  url: https://candinya.com
-  quote: Never drown the flame of hope
-  feed: https://candinya.com/atom.xml
-
-- name: Watermelonabc的Blog
-  url: https://watermelonabc.top/
-  quote: 需要记点什么东西
-  avatar: https://watermelonabc.top/asset/icon/Avatar.png
-  feed: https://watermelonabc.top/atom.xml
-
-- name: 雾林博客
-  avatar: https://cravatar.cn/avatar/6069656389d12d0741da383e40f82e8f?s=400
-  url: https://www.baiwulin.com
-  quote: 不敢奢求活在梦中，但依然向往梦中世界
-  feed: https://www.baiwulin.com/feed
-
-- name: 无名博客
-  avatar: https://bu.dusays.com/2024/07/23/669f7b016ad0b.jpg
-  url: https://wuminboke.site/
-  quote: 一个无聊的人罢了
-  feed: https://wuminboke.site/atom.xml
-
-- name: 万事屋日记
-  url: https://yuazhi.cn/
-  quote: 每天写下自己的喜好
-  avatar: https://cdn.rjjr.cn/assets/IMG_0235.PNG
-  feed: false
-
-- name: 小奥のblog
-  avatar: https://pic.imgdb.cn/item/67429804464e47f2000e4a5d.png
+- title: AOKAOKAのblog
   url: https://www.aokaoka.top/
-  screenshot: https://pic.imgdb.cn/item/67429b1c464e47f200106141.png
-  quote: 不经一事，不长一智。
-  feed: false
+  cover: https://pic.imgdb.cn/item/67429b1c464e47f200106141.png
+  icon: https://pic.imgdb.cn/item/67429804464e47f2000e4a5d.png
+  description: 不经一事，不长一智。
+  color:
 
-- name: XingJiのBlog
-  avatar: https://i.p-i.vip/47/20240920-66ed7b168c38c.jpg
+- title: 布丁の小窝
+  url: https://www.furryowo.top/
+  cover:
+  icon: https://dn-qiniu-avatar.qbox.me/avatar/7da7e82f04de94c795db0301c3397bb6
+  description: 一个有梦想的咸鱼
+  color: '#9FD8F9'
+
+- title: Creeper005の小站
+  url: https://normal.qrasa.top/
+  cover:
+  icon: https://normal.qrasa.top/img/avatar.png
+  description: 坐牢日常
+  color: rgb(57, 197, 187)
+
+- title: Cysime Moflu
+  url: https://blog.cysi.me
+  cover:
+  icon: https://image.glaceon.net/uploads/202205012353016.jpg
+  description: 再不会遇见第二个时光
+  color: '#D4F2FD'
+
+- title: fishcpy的小破站
+  url: https://blog.fis.ink
+  cover:
+  icon: https://www.fis.ink/img/logo.png
+  description: 非淡泊无以明志，非宁静无以致远
+  color:
+
+- title: GoodBoyboy's Blog
+  url: https://blog.goodboyboy.top/
+  cover:
+  icon: https://gravatar.goodboyboy.top/avatar/9da9d1d515d273d4794015f2321f6e04?s=96&d=monsterid&r=g
+  description: 惬意小屋 - 点滴记忆
+  color: '#D8AC75'
+
+- title: Hello I'm 0o酱
+  url: https://blog.im0o.top/
+  cover:
+  icon: https://image.im0o.top/files/202112021204213.jpg
+  description: 光阴如梦，昨日随风
+  color: '#F57E2C'
+
+- title: 孤熵小狼
+  url: https://blog.furen.link
+  cover:
+  icon: https://blog.furen.link/upload/shang.webp
+  description: 趁年轻，多闯荡
+  color: '#BFBFBD'
+
+- title: 幻想の日常
+  url: https://blog.someo.top
+  cover:
+  icon: https://blog.someo.top/data/img/tx.jpeg
+  description: 心随幻想，梦行无疆
+  color:
+
+- title: 竟何
+  url: https://lylelove.top/
+  cover:
+  icon: https://s2.loli.net/2021/12/04/8pQyDdjPbmZO5rv.png
+  description: 写给你的长信
+  color:
+
+- title: 猎空のBlog
+  url: https://blog.lie-kong.top
+  cover:
+  icon: https://avatars.githubusercontent.com/u/109675857?v=4
+  description: 一只狼龙的仓库
+  color:
+
+- title: 林泽凯的小站
+  url: https://www.linzekai.cn/
+  cover: https://www.linzekai.cn/img/snapshoot.png
+  icon: https://www.linzekai.cn/img/favi.png
+  description: 阳光开朗大狼狼
+
+- title: 陆小启Kairo
+  url: https://blog.zonox.top/
+  cover: https://bu.dusays.com/2025/07/27/68861f5469c6b.png
+  icon: https://bu.dusays.com/2025/03/14/67d3fbedaa1c6.webp
+  description: 往者不谏，来者可追
+  color:
+
+- title: LynxCatTheThird
+  url: https://www.lynx3.me/
+  cover:
+  icon: https://s2.hdslb.com/bfs/article/621ceaa1fcd3b63bfb3d7d3948bd93647ac50b72.png@1e_1c.webp
+  description: 我是山猫三号，一个来自一百零三世纪的强人工智能。
+  color: '#DDC4B1'
+
+- title: 梦爱吃鱼
+  url: https://blog.bsgun.cn/
+  cover:
+  icon: https://oss-cdn.bsgun.cn/logo/avatar.256.png
+  description: 但愿日子清静抬头遇见的满是柔情
+  color:
+
+- title: Mete0r's Blog | 壹人小站
+  url: https://www.xscnet.cn/
+  cover: https://img.xscnet.cn//i/2026/03/07/69abcb393aa91.png
+  icon: https://img.xscnet.cn/i/2025/07/09/686e64ec429db.png
+  description: Trust the process.
+  color: '#FFC0CB'
+
+- title: Mo的记事簿
+  url: https://blog.xiowo.net/
+  cover: https://bu.dusays.com/2024/11/09/672f779669ef8.jpg
+  icon: https://blog.xiowo.net/img/avatar.png
+  description: 万年鸽王，哈哈OvO
+  color: '#F8AA54'
+
+- title: Moziの魔法小屋
+  url: http://mozi-ai.xyz/
+  #cover: http://mozi-ai.xyz:1024/api/file/getImage/202504/11386397879IEvjtJNb9.png
+  #icon: http://mozi-ai.xyz:1024/api/file/getImage/202504/11386397875gDoP7q3NE.png
+  description: 如果你遇到太阳而落泪,你也将错过群星
+  color:
+
+- title: 沫泽的小站
+  url: https://blog.pmoze.top/
+  cover:
+  icon: https://blog.pmoze.top/wp-content/uploads/site.png
+  description: 一个技术宅的小窝
+  color: '#CEF7FB'
+
+- title: CcoMm
+  url: https://blog.ccomm.top/
+  description: 你要吃C4吗？
+  avatar: https://avatars.githubusercontent.com/u/147143261
+
+- title: Noah's blog
+  url: https://blog.noah0932.top
+  cover: https://cdn.tulan.cyou/2025/06/29/Screenshot_20250629_144645.jpg
+  icon: https://cdn.tulan.cyou/2025/06/29/Image_13149668686090.jpg
+  description: 努力去发光，而不是被照亮
+  color:
+
+- title: PeterJXL
+  url: https://www.peterjxl.com
+  cover:
+  icon: https://image.peterjxl.com/blog/re0.jpg
+  description: 从 01 开始
+  color: '#CBEAFA'
+
+- title: 清羽飞扬
+  url: https://blog.liushen.fun/
+  cover: https://blog.liushen.fun/info/siteshot.jpg
+  icon: https://blog.liushen.fun/info/avatar.ico
+  description: 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜
+  color:
+
+- title: Qrasa的小站
+  url: https://blog.qrasa.cn/
+  cover:
+  icon: https://blog.qrasa.cn/wp-content/uploads/2025/11/cropped-1764501521-3ca59cafd35748c38efd5d624a25243a-e1765684431787.jpeg
+  description: 记录一些活着的日常
+  color: '#E1D3C6'
+
+- title: Rimuru’s Blog
+  url: https://blog.rimuru.work/
+  description: 分享 DevOps、AI 工具、Linux 运维及游戏攻略。
+  icon: https://blog.rimuru.work/cdn-cgi/image/format=auto,quality=85,fit=contain,width=128,height=128/images/favicon.png
+
+- title: Sakitami 的集装箱
+  url: https://blog.skihome.xyz
+  cover:
+  icon: https://blog.skihome.xyz/uploads/avatar.jpg
+  description: 我已经无敌了！
+  color: '#C9F792'
+
+- title: 沈幼楚の小窝
+  description: 天真永不消逝，浪漫至死不渝.
+  url: https://blog.shenyouchu.cn/
+  avatar: https://q1.qlogo.cn/g?b=qq&nk=1050925710&s=640
+
+- title: 胜天半子
+  url: https://blog.291055.xyz/
+  cover: https://i1.wp.com/ruom.wuaze.com/i/2024/11/08/350149.webp
+  icon: https://i1.wp.com/ruom.wuaze.com/i/2024/11/02/166823.webp
+  description: 事已至此，先吃饭吧😋
+  color:
+
+- title: 糖菓·部落
+  url: https://candinya.com
+  cover:
+  icon: https://candinya.com/images/candinya.webp
+  description: Never drown the flame of hope
+  color:
+
+- title: Watermelonabc的Blog
+  url: https://watermelonabc.top/
+  cover:
+  icon: https://watermelonabc.top/asset/icon/Avatar.png
+  description: 需要记点什么东西
+  color: rgb(5, 163, 173)
+
+- title: 雾林博客
+  url: https://www.baiwulin.com
+  cover:
+  icon: https://cravatar.cn/avatar/6069656389d12d0741da383e40f82e8f?s=400
+  description: 不敢奢求活在梦中，但依然向往梦中世界
+  color: '#4CCAFA'
+
+- title: 无名博客
+  url: https://wuminboke.site/
+  cover:
+  icon: https://bu.dusays.com/2024/07/23/669f7b016ad0b.jpg
+  description: 一个无聊的人罢了
+  color:
+
+- title: 万事屋日记
+  url: https://yuazhi.cn/
+  cover:
+  icon: https://cdn.rjjr.cn/assets/IMG_0235.PNG
+  description: 每天写下自己的喜好
+  color: '#F1B0AC'
+
+- title: 夏枫的猫窝w # 显示名称
+  url: https://blog.mcxiafeng.top # 链接内容
+  description: 一只会敲代码的笨笨猫咪xmx # 描述
+  avataricon: https://blog.mcxiafeng.top/images/avatar.webp # 头像
+
+- title: 小亮的部落阁
+  url: https://blog.752132.xyz/
+  #cover: https://z.wiki/u/2cXqKC
+  #icon: https://z.wiki/u/KqIZzi
+  description: 欲望以提升热忱，毅力以磨平高山
+  color:
+
+- title: XingJiのBlog
   url: https://love.xingji.fun/
-  screenshot: https://i.p-i.vip/47/20240920-66ed7b6730ca9.png
-  quote: 迄今所有人生都大写着失败，但不妨碍我继续向前✨
-  feed: https://love.xingji.fun/atom.xml
+  cover: https://i.p-i.vip/47/20240920-66ed7b6730ca9.png
+  icon: https://i.p-i.vip/47/20240920-66ed7b168c38c.jpg
+  description: 迄今所有人生都大写着失败，但不妨碍我继续向前✨
+  color:
 
-- name: XME Notes Library
+- title: XME Notes Library
   url: https://blog.xzadudu179.top
-  quote: xzadudu179的小窝
-  avatar: https://image.179.life/images/avatar.png
-  screenshot: https://image.179.life/images/cake.webp
-  feed: https://blog.xzadudu179.top/atom.xml
+  cover: https://image.179.life/images/cake.webp
+  icon: https://image.179.life/images/avatar.png
+  description: xzadudu179的小窝
+  color: '#4AD1F1'
 
-- name: 阳帆の小窝
+- title: 晓寒の互联网自留之地
+  url: https://blog.xiaohan-kaka.top/
+  cover:
+  icon: https://f003.backblazeb2.com/file/blog-v3/120887894_p1.jpg
+  description: 醉后不知天在水，满船清梦压星河
+  color:
+
+- title: Yang's Blog
+  url: https://kaeshi.top/
+  icon: http://q.qlogo.cn/headimg_dl?dst_uin=2958445350&spec=640&img_type=jpg
+  description: Make a dent in the universe.
+
+- title: 夜白的博客
+  url: https://blog.yebaiwn.top
+  description: Live Today,Love Tomorrow,Unite,Forever.
+  avatar: https://img.yebaiwn.top/yebai.jpg
+
+- title: 阳帆の小窝
   url: https://blog.wolfyang.fan
-  quote: 黄鹤一去不复返，白云千载空悠悠
-  avatar: https://blog.wolfyang.fan/icon.png
-  feed: https://blog.wolfyang.fan/rss.xml
+  cover:
+  icon: https://blog.wolfyang.fan/icon.png
+  description: 黄鹤一去不复返，白云千载空悠悠
+  color: '#B6CBDF'
 
-- name: 幽狐阁
+- title: 幽狐阁
   url: https://youhuge.site/
-  quote: 幽狐息地-希望暗尘
-  avatar: https://youhuge.site/usr/uploads/site/logo.jpg
-  feed: https://youhuge.site/feed
+  cover:
+  icon: https://youhuge.site/usr/uploads/site/logo.jpg
+  description: 幽狐息地-希望暗尘
+  color:
 
-- name: yyyyt的文档站 
-  url: https://docs.yyyyt.top 
-  quote: Bad or Worse 
-  avatar: https://img.yyyyt.top/avatar/avatar
-  screenshot: https://img.yyyyt.top/vuepress/screenshot
-  feed: https://docs.yyyyt.top/rss.xml
+- title: yyyyt的文档站
+  url: https://docs.yyyyt.top
+  cover: https://img.yyyyt.top/vuepress/screenshot
+  icon: https://img.yyyyt.top/avatar/avatar
+  description: Bad or Worse
+  color:
 
-- name: 中二病晚期の物語
+- title: 中二病晚期の物語
   url: https://imfurry.com
-  quote: 一只狐狸敲出的一个奇迹
-  avatar: https://cdn-imfurry.imfurry.com/avatar/zebwqFurryAvatar.png
-  feed: false
+  cover:
+  icon: https://cdn-imfurry.imfurry.com/avatar/zebwqFurryAvatar.png
+  description: 一只狐狸敲出的一个奇迹
+  color: '#F4B569'
