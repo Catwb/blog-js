@@ -214,7 +214,7 @@
   background-color: var(--liushen-card-bg);
 }
 
-[color-scheme='dark'] .OwO-packages span {
+[color-scheme='dark'] .OwO-packages span, .OwO-item {
     color: white;
 }
 /* 由于twikoo内部函数不宜修改，为了合适，去掉弹窗中的刷新按钮，该部分不需要，这是为了适配右键回复弹窗的内容的
