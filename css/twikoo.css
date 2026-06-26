@@ -76,11 +76,10 @@
 
 /* 深色模式颜色 */
 [color-scheme='dark'] {
-  --liushen-border-color: #42444a;
-  --liushen-card-bg: #2c2c2c;
-  --liushen-card-border: #42444a;
-  --style-border-always: 1px solid var(--liushen-card-border);
-  --liushen-blue: #0084FF;
+  --liushen-card-bg: #1e293b;
+  --liushen-border-color: rgba(14,165,233,0.25);
+  --liushen-card-border: rgba(14,165,233,0.25);
+  --liushen-blue: #0ea5e9;
 }
 
 /* 评论区评论大框 */
