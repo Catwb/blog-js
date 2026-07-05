@@ -59,141 +59,66 @@
   --liushen-card-bg: #fff;
   --liushen-card-border: #e3e8f7;
   --style-border-always: 1px solid var(--liushen-card-border);
-  --liushen-blue: #425AEF;
-  --card-box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.05);
-  --card-hover-box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.09);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --liushen-border-color: #42444a;
-    --liushen-card-bg: #2c2c2c;
-    --liushen-card-border: #42444a;
-    --style-border-always: 1px solid var(--liushen-card-border);
-    --liushen-blue: #0084FF;
-  }
+  --liushen-blue: var(--primary, oklch(0.65 0.2 var(--hue, 250)));
+  --card-box-shadow: none;
+  --card-hover-box-shadow: none;
 }
 
 /* 深色模式颜色 */
 .dark {
-  --liushen-card-bg: #1e293b;
-  --liushen-border-color: rgba(14,165,233,0.25);
-  --liushen-card-border: rgba(14,165,233,0.25);
-  --liushen-blue: #0ea5e9;
+  --liushen-card-bg: oklch(0.22 0.01 var(--hue, 250));
+  --liushen-border-color: oklch(0.35 0.02 var(--hue, 250));
+  --liushen-card-border: oklch(0.35 0.02 var(--hue, 250));
+  --liushen-blue: var(--primary, oklch(0.65 0.2 var(--hue, 250)));
 }
 
 /* 评论区评论大框 */
 .twikoo .tk-comments-container>.tk-comment,
 .twikoo .tk-comments .tk-submit {
-  /* 内边距 */
   padding: 20px;
   margin-top: 0px;
   margin-bottom: 20px;
-  /* 圆角 */
   border-radius: var(--liushen-radius);
-  /* 背景颜色 */
   background: var(--liushen-card-bg);
-  /* 变动动画时长 */
   transition: .3s;
 }
 
-/* 浅色模式评论区评论大框 */
-
-.twikoo .tk-comments-container>.tk-comment,
-.twikoo .tk-comments .tk-submit {
-  /* 阴影 */
-  box-shadow: var(--card-box-shadow);
+/* 设备信息 */
+.twikoo .tk-extra {
+  border-radius: var(--liushen-radius);
+  background: var(--liushen-card-bg);
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  transition: .3s;
 }
 
-/* 浅色模式评论区评论大框阴影悬浮加深 */
-
-.twikoo .tk-comments-container>.tk-comment:hover,
-.twikoo .tk-comments .tk-submit:hover {
-  /* 阴影（浅色模式突出层次感） */
-  box-shadow: var(--card-hover-box-shadow);
+/* 加载更多按钮 */
+.twikoo .tk-expand {
+  border-radius: var(--liushen-radius);
 }
 
 /* 黑暗模式评论区评论大框 */
 .dark .twikoo .tk-comments-container>.tk-comment,
 .dark .twikoo .tk-comments .tk-submit {
-  /* 边框样式 */
-  border-style: solid;
-  /* 边框宽度 */
-  border-width: var(--liushen-card-border-width);
-  /* 边框颜色 */
-  border-color: var(--liushen-card-border);
-}
-
-/* 设备信息 */
-.twikoo .tk-extra {
-  /* 圆角 */
-  border-radius: var(--liushen-radius);
-  /* 背景颜色 */
+  border: 1px solid var(--liushen-card-border);
   background: var(--liushen-card-bg);
-  /* 内边距 */
-  padding: 0.4rem;
-  /* 底边距 */
-  margin-bottom: 1rem;
-  /* 变动动画时长 */
-  transition: .3s;
-}
-
-/* 浅色模式设备信息 */
-.twikoo .tk-extra {
-  /* 阴影 */
-  box-shadow: var(--card-box-shadow);
-}
-
-/* 浅色模式设备信息阴影悬浮加深 */
-.twikoo .tk-extra:hover {
-  /* 阴影 */
-  box-shadow: var(--card-hover-box-shadow);
 }
 
 /* 黑暗模式设备信息 */
 .dark .twikoo .tk-extra {
-  /* 边框样式 */
-  border-style: solid;
-  /* 边框宽度 */
-  border-width: var(--liushen-card-border-width);
-  /* 边框颜色 */
-  border-color: var(--liushen-card-border);
-}
-
-/* 加载更多按钮 */
-.twikoo .tk-expand {
-  /* 圆角 */
-  border-radius: var(--liushen-radius);
-}
-
-/* 浅色模式加载更多按钮 */
-.twikoo .tk-expand {
-  /* 阴影 */
-  box-shadow: var(--card-box-shadow);
-}
-
-/* 浅色模式加载更多按钮（鼠标悬浮时） */
-.twikoo .tk-expand:hover {
-  /* 阴影 */
-  box-shadow: var(--card-hover-box-shadow);
-  /* 背景颜色 */
-  background-color: var(--btn-bg);
-}
-
-/* 黑暗模式加载更多按钮（鼠标悬浮时） */
-.dark .twikoo .tk-expand:hover {
-  /* 背景颜色 */
-  background-color: var(--liushen-blue);
+  border: 1px solid var(--liushen-card-border);
+  background: var(--liushen-card-bg);
 }
 
 /* 黑暗模式加载更多按钮 */
 .dark .twikoo .tk-expand {
-  /* 边框样式 */
-  border-style: solid;
-  /* 边框宽度 */
-  border-width: var(--liushen-card-border-width);
-  /* 边框颜色 */
-  border-color: var(--liushen-card-border);
+  border: 1px solid var(--liushen-card-border);
+}
+
+/* 黑暗模式加载更多按钮（鼠标悬浮时） */
+.dark .twikoo .tk-expand:hover {
+  background-color: var(--liushen-blue);
+  color: white;
 }
 
 /* 分类卡片移动端个人信息卡片只显示两个 */
@@ -211,10 +136,11 @@
 /* 表情样式 */
 .dark .OwO-body {
   background-color: var(--liushen-card-bg);
+  border: 1px solid var(--liushen-card-border);
 }
 
 .dark .OwO-packages span, .dark .OwO-item {
-    color: white;
+  color: white;
 }
 /* 由于twikoo内部函数不宜修改，为了合适，去掉弹窗中的刷新按钮，该部分不需要，这是为了适配右键回复弹窗的内容的
 #popup #twikoo .tk-comments .tk-comments-container .tk-comments-title > span:nth-child(2) > span:nth-child(1) {
