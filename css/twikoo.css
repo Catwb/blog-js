@@ -142,6 +142,103 @@
 .dark .OwO-packages span, .dark .OwO-item {
   color: white;
 }
+
+.dark .OwO-box {
+  background: var(--liushen-card-bg);
+}
+
+.dark .OwO-bar a {
+  color: oklch(0.7 0.02 var(--hue, 250));
+}
+
+/* ======================== 暗色模式文字颜色 ======================== */
+
+/* 评论内容文字 */
+.dark .twikoo .tk-content p,
+.dark .twikoo .tk-content {
+  color: oklch(0.8 0.01 var(--hue, 250));
+}
+
+/* 评论者昵称 */
+.dark .twikoo .tk-nick {
+  color: oklch(0.85 0.02 var(--hue, 250));
+}
+
+/* 评论时间 */
+.dark .twikoo .tk-time {
+  color: oklch(0.55 0.01 var(--hue, 250));
+}
+
+/* 评论区域标签/徽章 */
+.dark .twikoo .tk-tag {
+  background: oklch(0.3 0.02 var(--hue, 250));
+  color: oklch(0.75 0.02 var(--hue, 250));
+}
+
+/* 输入框文字 */
+.dark .twikoo .tk-input.el-textarea textarea {
+  color: oklch(0.85 0.01 var(--hue, 250));
+  background: oklch(0.18 0.01 var(--hue, 250));
+  border-color: var(--liushen-card-border);
+}
+
+/* 输入框 placeholder */
+.dark .twikoo .tk-input.el-textarea textarea::placeholder {
+  color: oklch(0.55 0.01 var(--hue, 250));
+}
+
+/* 昵称/邮箱输入框 */
+.dark .twikoo .tk-meta-input input {
+  color: oklch(0.85 0.01 var(--hue, 250));
+  background: oklch(0.18 0.01 var(--hue, 250));
+  border-color: var(--liushen-card-border);
+}
+
+/* 按钮文字 */
+.dark .twikoo .tk-row.actions button.el-button {
+  color: oklch(0.8 0.02 var(--hue, 250));
+}
+
+/* 按钮 hover */
+.dark .twikoo .tk-row.actions button.el-button:hover {
+  color: var(--liushen-blue);
+}
+
+/* 回复引用线 */
+.dark .twikoo .tk-quote {
+  border-left-color: oklch(0.4 0.02 var(--hue, 250));
+}
+
+/* 设备信息文字 */
+.dark .twikoo .tk-extra {
+  color: oklch(0.55 0.01 var(--hue, 250));
+}
+
+/* 分页按钮 */
+.dark .twikoo .tk-pagination button {
+  color: oklch(0.7 0.02 var(--hue, 250));
+  background: oklch(0.25 0.01 var(--hue, 250));
+  border-color: var(--liushen-card-border);
+}
+
+.dark .twikoo .tk-pagination button.active {
+  color: white;
+  background: var(--liushen-blue);
+}
+
+/* 管理员标识 */
+.dark .tkadmin {
+  color: var(--liushen-blue);
+}
+
+/* 回复按钮 */
+.dark .twikoo .tk-reply {
+  color: oklch(0.65 0.02 var(--hue, 250));
+}
+
+.dark .twikoo .tk-reply:hover {
+  color: var(--liushen-blue);
+}
 /* 由于twikoo内部函数不宜修改，为了合适，去掉弹窗中的刷新按钮，该部分不需要，这是为了适配右键回复弹窗的内容的
 #popup #twikoo .tk-comments .tk-comments-container .tk-comments-title > span:nth-child(2) > span:nth-child(1) {
 	display: none;
