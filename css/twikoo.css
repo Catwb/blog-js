@@ -75,7 +75,7 @@
 }
 
 /* 深色模式颜色 */
-[color-scheme='dark'] {
+.dark {
   --liushen-card-bg: #1e293b;
   --liushen-border-color: rgba(14,165,233,0.25);
   --liushen-card-border: rgba(14,165,233,0.25);
@@ -114,7 +114,7 @@
 }
 
 /* 黑暗模式评论区评论大框 */
-[color-scheme='dark'] 
+.dark 
 .twikoo .tk-comments-container>.tk-comment,
 .twikoo .tk-comments .tk-submit {
   /* 边框样式 */
@@ -152,7 +152,7 @@
 }
 
 /* 黑暗模式设备信息 */
-[color-scheme='dark'] .twikoo .tk-extra {
+.dark .twikoo .tk-extra {
   /* 边框样式 */
   border-style: solid;
   /* 边框宽度 */
@@ -182,13 +182,13 @@
 }
 
 /* 黑暗模式加载更多按钮（鼠标悬浮时） */
-[color-scheme='dark'] .twikoo .tk-expand:hover {
+.dark .twikoo .tk-expand:hover {
   /* 背景颜色 */
   background-color: var(--liushen-blue);
 }
 
 /* 黑暗模式加载更多按钮 */
-[color-scheme='dark'] .twikoo .tk-expand {
+.dark .twikoo .tk-expand {
   /* 边框样式 */
   border-style: solid;
   /* 边框宽度 */
@@ -210,11 +210,11 @@
 }
 
 /* 表情样式 */
-[color-scheme='dark'] .OwO-body {
+.dark .OwO-body {
   background-color: var(--liushen-card-bg);
 }
 
-[color-scheme='dark'] .OwO-packages span, .OwO-item {
+.dark .OwO-packages span, .OwO-item {
     color: white;
 }
 /* 由于twikoo内部函数不宜修改，为了合适，去掉弹窗中的刷新按钮，该部分不需要，这是为了适配右键回复弹窗的内容的
