@@ -194,6 +194,12 @@
   border-color: var(--liushen-card-border);
 }
 
+.dark .twikoo .tk-meta-input div {
+  color: oklch(0.85 0.01 var(--hue, 250));
+  background: oklch(0.18 0.01 var(--hue, 250));
+  border-color: var(--liushen-card-border);
+}
+
 /* 按钮文字 */
 .dark .twikoo .tk-row.actions button.el-button {
   color: oklch(0.8 0.02 var(--hue, 250));
@@ -237,6 +243,107 @@
 }
 
 .dark .twikoo .tk-reply:hover {
+  color: var(--liushen-blue);
+}
+
+/* ======================== OwO 表情面板暗色模式 ======================== */
+
+/* OwO 主体 */
+.dark .OwO {
+  background: var(--liushen-card-bg);
+  border-color: var(--liushen-card-border);
+}
+
+.dark .OwO-body {
+  background: var(--liushen-card-bg);
+  border-color: var(--liushen-card-border);
+}
+
+/* OwO 分类栏 */
+.dark .OwO-bar {
+  background: oklch(0.2 0.01 var(--hue, 250));
+  border-bottom-color: var(--liushen-card-border);
+}
+
+.dark .OwO-bar .OwO-tabs {
+  border-bottom-color: var(--liushen-card-border);
+}
+
+.dark .OwO-bar .OwO-tab {
+  color: oklch(0.6 0.02 var(--hue, 250));
+}
+
+.dark .OwO-bar .OwO-tab:hover {
+  color: oklch(0.8 0.02 var(--hue, 250));
+}
+
+.dark .OwO-bar .OwO-tab.active {
+  color: var(--liushen-blue);
+  border-bottom-color: var(--liushen-blue);
+}
+
+/* OwO 分类标签 */
+.dark .OwO-bar a {
+  color: oklch(0.7 0.02 var(--hue, 250));
+}
+
+.dark .OwO-bar a:hover {
+  color: oklch(0.9 0.02 var(--hue, 250));
+}
+
+/* OwO 表情容器 */
+.dark .OwO-box {
+  background: var(--liushen-card-bg);
+}
+
+/* OwO 包裹 */
+.dark .OwO-packages {
+  background: oklch(0.2 0.01 var(--hue, 250));
+}
+
+.dark .OwO-packages span {
+  color: oklch(0.7 0.02 var(--hue, 250));
+}
+
+.dark .OwO-packages span:hover {
+  color: oklch(0.9 0.02 var(--hue, 250));
+}
+
+/* OwO 表情项目 */
+.dark .OwO-items {
+  background: var(--liushen-card-bg);
+}
+
+.dark .OwO-items-emoji {
+  background: var(--liushen-card-bg);
+}
+
+.dark .OwO-items-show {
+  background: oklch(0.25 0.01 var(--hue, 250));
+  color: oklch(0.8 0.01 var(--hue, 250));
+  border-color: var(--liushen-card-border);
+}
+
+.dark .OwO-item {
+  color: oklch(0.8 0.01 var(--hue, 250));
+}
+
+.dark .OwO-item:hover {
+  background: oklch(0.25 0.02 var(--hue, 250));
+}
+
+/* 评论区弹窗/下拉菜单 */
+.dark .el-dropdown-menu {
+  background: var(--liushen-card-bg);
+  border-color: var(--liushen-card-border);
+}
+
+.dark .el-dropdown-menu__item {
+  color: oklch(0.8 0.01 var(--hue, 250));
+}
+
+.dark .el-dropdown-menu__item:hover {
+  background: oklch(0.25 0.02 var(--hue, 250));
   color: var(--liushen-blue);
 }
 /* 由于twikoo内部函数不宜修改，为了合适，去掉弹窗中的刷新按钮，该部分不需要，这是为了适配右键回复弹窗的内容的
