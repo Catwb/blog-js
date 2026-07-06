@@ -385,7 +385,7 @@
 /* 暗色模式字数 / 预览 */
 .dark .twikoo .el-textarea__inner,
 .dark .twikoo .el-input__count {
-    color: oklch(0.7 0.03 var(--hue));
+    color: oklch(0.7 0.03 var(--hue)) !important;
 }
 .dark .twikoo .tk-preview.el-button--default {
     color: oklch(0.7 0.03 var(--hue));
