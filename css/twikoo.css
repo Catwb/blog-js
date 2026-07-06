@@ -395,7 +395,7 @@
     color: oklch(0.85 0.05 var(--hue));
     background: oklch(0.35 0.03 var(--hue));
 }
-.dark .twikoo .tk-preview-content {
+.dark .twikoo .tk-preview-container {
     color: oklch(0.8 0.03 var(--hue));
     background: oklch(0.25 0.02 var(--hue));
     border-radius: 12px;
