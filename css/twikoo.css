@@ -382,4 +382,24 @@
 	display: none;
 } */
 
+/* 暗色模式字数 / 预览 */
+.dark .twikoo .el-textarea__inner,
+.dark .twikoo .el-input__count {
+    color: oklch(0.7 0.03 var(--hue));
+}
+.dark .twikoo .tk-preview.el-button--default {
+    color: oklch(0.7 0.03 var(--hue));
+    border-color: oklch(0.4 0.02 var(--hue));
+}
+.dark .twikoo .tk-preview.el-button--default:hover {
+    color: oklch(0.85 0.05 var(--hue));
+    background: oklch(0.35 0.03 var(--hue));
+}
+.dark .twikoo .tk-preview-content {
+    color: oklch(0.8 0.03 var(--hue));
+    background: oklch(0.25 0.02 var(--hue));
+    border-radius: 12px;
+    padding: 12px;
+}
+
 /* ========================twikoo美化====================== */
