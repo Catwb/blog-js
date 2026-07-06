@@ -402,4 +402,10 @@
     padding: 12px;
 }
 
+/* 防止回复底部评论时表情面板被截断 */
+.twikoo .tk-comments-container,
+.twikoo .tk-comment {
+    overflow: visible !important;
+}
+
 /* ========================twikoo美化====================== */
