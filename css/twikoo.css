@@ -407,5 +407,10 @@
 .twikoo .tk-comment {
     overflow: visible !important;
 }
+/* 强覆盖外层容器 overflow-hidden (main 和 card-base) */
+#swup-container:has(.twikoo),
+.card-base:has(.twikoo) {
+    overflow: visible !important;
+}
 
 /* ========================twikoo美化====================== */
