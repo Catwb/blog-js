@@ -36,3 +36,8 @@ content:
         type: boolean
         label: 置顶
         default: false
+
+  - name: friends
+    label: 友链
+    type: file
+    path: friends.yaml
