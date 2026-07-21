@@ -30,13 +30,6 @@ content:
     label: 一言
     type: file
     path: oneword.json
-    format: json
-    list: true
-    fields:
-      - name: sentence
-        type: text
-        required: true
-        label: 句子
 
   - name: friends
     label: 友链
