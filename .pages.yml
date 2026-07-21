@@ -38,12 +38,7 @@ content:
         required: true
         label: 句子
 
-  - name: friends-json
-    label: 友链(JSON)
-    type: file
-    path: friend.json
-
-  - name: friends-yaml
-    label: 友链(YAML)
+  - name: friends
+    label: 友链
     type: file
     path: friends.yaml
