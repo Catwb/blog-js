@@ -37,6 +37,11 @@ content:
         label: 置顶
         default: false
 
+  - name: friends-json
+    label: 友链(旧)
+    type: file
+    path: friend.json
+
   - name: friends
     label: 友链
     type: file
