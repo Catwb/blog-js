@@ -29,8 +29,8 @@ content:
         label: 内容
         list: true
       - name: images
-        type: image
-        label: 图片
+        type: string
+        label: 图片(外链)
         list: true
       - name: pinned
         type: boolean
