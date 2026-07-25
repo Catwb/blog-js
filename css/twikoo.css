@@ -1,416 +1,163 @@
-/* ========================twikoo美化====================== */
-/* 隐藏评论者头像 */
+/* ======================== Twikoo 评论样式 ======================== */
+/* 贴合 Furrity 主题 · 简约设计 */
+
+/* 评论框/评论卡片 */
+.twikoo .tk-comments .tk-submit,
+.twikoo .tk-comments-container>.tk-comment {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: var(--radius-large, 12px);
+  background: var(--card-bg);
+}
+/* 设备信息 */
+.twikoo .tk-extra {
+  border-radius: var(--radius-large, 12px);
+  background: var(--card-bg);
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+}
+/* 加载更多 */
+.twikoo .tk-expand {
+  border-radius: var(--radius-large, 12px);
+}
+
+/* 隐藏提交者头像（评论框内） */
 #twikoo .tk-comments .tk-submit .tk-avatar.tk-has-avatar {
-    display: none;
+  display: none;
 }
 
-/* 下面表情和按钮那一栏的设置 */
-#twikoo .tk-comments .tk-submit .tk-row.actions{
-    margin-bottom: 0;
-    margin-left: 0;
+/* 输入框圆角 */
+.tk-input.el-textarea textarea {
+  border-radius: 12px;
+  min-height: 120px !important;
+}
+.tk-meta-input input,
+.tk-meta-input div {
+  border-radius: 12px;
 }
 
-/* 个人信息和文本输入之间的空位置 */
-.tk-main .tk-submit .tk-col .tk-meta-input,
-#twikoo .tk-comments .tk-submit .tk-col .tk-meta-input{
-    margin-bottom: 16px;
-}
-
-/* 直接固定高度，解决提交按钮有时高度不起作用的问题 */
+/* 按钮统一圆角 */
 .tk-row.actions button.el-button {
-    height: 32px;
+  border-radius: 12px !important;
+  height: 32px;
 }
 
-/* 解决图片大小超出范围问题 */
+/* 图片自适应 */
 .tk-main .tk-content img {
   max-width: 100%;
   height: auto;
 }
 
-/* 圆角设置 */
-.tk-meta-input input {
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+/* 防止表情面板被截断 */
+.twikoo .tk-comments-container,
+.twikoo .tk-comment {
+  overflow: visible !important;
 }
 
-.tk-meta-input div {
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-}
-
-/* 输入框样式 */
-.tk-input.el-textarea textarea {
-    border-radius: 12px;
-    min-height: 150px !important;
-    height: auto;
-}
-
-/* 宽度太窄的时候去掉预览按钮 */
-@media screen and (max-width:420px) {
-    .tk-main .tk-submit .tk-row.actions button.el-button.tk-preview.el-button--default.el-button--small{
-        display: none;
-    }
-}
-
-:root {
-  --liushen-radius: 12px;
-  --liushen-card-border-width: 0;
-  --liushen-border-color: #e3e8f7;
-  --liushen-card-bg: #fff;
-  --liushen-card-border: #e3e8f7;
-  --style-border-always: 1px solid var(--liushen-card-border);
-  --liushen-blue: var(--primary, oklch(0.65 0.2 var(--hue, 250)));
-  --card-box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.05);
-  --card-hover-box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.09);
-}
-
-/* 深色模式颜色 */
-.dark {
-  --liushen-card-bg: oklch(0.22 0.01 var(--hue, 250));
-  --liushen-border-color: oklch(0.35 0.02 var(--hue, 250));
-  --liushen-card-border: oklch(0.35 0.02 var(--hue, 250));
-  --liushen-blue: var(--primary, oklch(0.65 0.2 var(--hue, 250)));
-  --card-box-shadow: 0 3px 8px 6px rgba(0, 0, 0, 0.25);
-  --card-hover-box-shadow: 0 3px 8px 6px rgba(0, 0, 0, 0.35);
-}
-
-/* 评论区评论大框 */
-.twikoo .tk-comments-container>.tk-comment,
-.twikoo .tk-comments .tk-submit {
-  padding: 20px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  border-radius: var(--liushen-radius);
-  background: var(--liushen-card-bg);
-  transition: .3s;
-}
-
-/* 设备信息 */
-.twikoo .tk-extra {
-  border-radius: var(--liushen-radius);
-  background: var(--liushen-card-bg);
-  padding: 0.4rem;
-  margin-bottom: 1rem;
-  transition: .3s;
-}
-
-/* 加载更多按钮 */
-.twikoo .tk-expand {
-  border-radius: var(--liushen-radius);
-}
-
-/* 黑暗模式评论区评论大框 */
+/* ======================== 深色模式 ======================== */
+.dark .twikoo .tk-comments .tk-submit,
 .dark .twikoo .tk-comments-container>.tk-comment,
-.dark .twikoo .tk-comments .tk-submit {
-  border: 1px solid var(--liushen-card-border);
-  background: var(--liushen-card-bg);
-}
-
-/* 黑暗模式设备信息 */
 .dark .twikoo .tk-extra {
-  border: 1px solid var(--liushen-card-border);
-  background: var(--liushen-card-bg);
+  background: oklch(0.22 0.01 var(--hue, 250));
+  border: 1px solid oklch(0.35 0.02 var(--hue, 250));
 }
 
-/* 黑暗模式加载更多按钮 */
 .dark .twikoo .tk-expand {
-  border: 1px solid var(--liushen-card-border);
+  border: 1px solid oklch(0.35 0.02 var(--hue, 250));
 }
-
-/* 黑暗模式加载更多按钮（鼠标悬浮时） */
 .dark .twikoo .tk-expand:hover {
-  background-color: var(--liushen-blue);
-  color: white;
+  background: var(--primary, oklch(0.65 0.2 var(--hue, 250)));
+  color: #fff;
 }
 
-/* 分类卡片移动端个人信息卡片只显示两个 */
-@media screen and (max-width:570px) {
-    .tk-main .tk-extras {
-        display: none;
-    }
-}
-
-/* 评论区按钮样式 */
-.tk-row.actions button.el-button {
-    border-radius: 12px !important;
-}
-
-/* 表情样式 */
-.dark .OwO-body {
-  background-color: var(--liushen-card-bg);
-  border: 1px solid var(--liushen-card-border);
-}
-
-.dark .OwO-packages span, .dark .OwO-item {
-  color: white;
-}
-
-.dark .OwO-box {
-  background: var(--liushen-card-bg);
-}
-
-.dark .OwO-bar a {
-  color: oklch(0.7 0.02 var(--hue, 250));
-}
-
-/* ======================== 暗色模式文字颜色 ======================== */
-
-/* 评论内容文字 */
-.dark .twikoo .tk-content p,
-.dark .twikoo .tk-content {
+/* 评论内容 */
+.dark .twikoo .tk-content,
+.dark .twikoo .tk-content p {
   color: oklch(0.8 0.01 var(--hue, 250));
 }
-
-/* 评论者昵称 */
 .dark .twikoo .tk-nick {
   color: oklch(0.85 0.02 var(--hue, 250));
 }
-
-/* 评论时间 */
 .dark .twikoo .tk-time {
   color: oklch(0.55 0.01 var(--hue, 250));
 }
-
-/* 评论区域标签/徽章 */
 .dark .twikoo .tk-tag {
   background: oklch(0.3 0.02 var(--hue, 250));
   color: oklch(0.75 0.02 var(--hue, 250));
 }
-
-/* 输入框文字 */
-.dark .twikoo .tk-input.el-textarea textarea {
-  color: oklch(0.85 0.01 var(--hue, 250));
-  background: oklch(0.18 0.01 var(--hue, 250));
-  border-color: var(--liushen-card-border);
-}
-
-/* 输入框 placeholder */
-.dark .twikoo .tk-input.el-textarea textarea::placeholder {
-  color: oklch(0.55 0.01 var(--hue, 250));
-}
-
-/* 昵称/邮箱输入框 */
-.dark .twikoo .tk-meta-input input {
-  color: oklch(0.85 0.01 var(--hue, 250));
-  background: oklch(0.18 0.01 var(--hue, 250));
-  border-color: var(--liushen-card-border);
-}
-
-.dark .twikoo .tk-meta-input div {
-  color: oklch(0.85 0.01 var(--hue, 250));
-  background: oklch(0.18 0.01 var(--hue, 250));
-  border-color: var(--liushen-card-border);
-}
-
-/* 按钮文字 */
-.dark .twikoo .tk-row.actions button.el-button {
-  color: oklch(0.8 0.02 var(--hue, 250));
-}
-
-/* 按钮 hover */
-.dark .twikoo .tk-row.actions button.el-button:hover {
-  color: var(--liushen-blue);
-}
-
-/* 回复引用线 */
 .dark .twikoo .tk-quote {
   border-left-color: oklch(0.4 0.02 var(--hue, 250));
 }
 
-/* 设备信息文字 */
-.dark .twikoo .tk-extra {
+/* 输入框 */
+.dark .twikoo textarea,
+.dark .twikoo .tk-meta-input input,
+.dark .twikoo .tk-meta-input div {
+  color: oklch(0.85 0.01 var(--hue, 250));
+  background: oklch(0.18 0.01 var(--hue, 250));
+  border-color: oklch(0.35 0.02 var(--hue, 250));
+}
+.dark .twikoo textarea::placeholder {
   color: oklch(0.55 0.01 var(--hue, 250));
 }
 
-/* 分页按钮 */
+/* 按钮 */
+.dark .twikoo .tk-row.actions button.el-button {
+  color: oklch(0.8 0.02 var(--hue, 250));
+}
+.dark .twikoo .tk-row.actions button.el-button:hover {
+  color: var(--primary, oklch(0.65 0.2 var(--hue, 250)));
+}
+
+/* 分页 */
 .dark .twikoo .tk-pagination button {
   color: oklch(0.7 0.02 var(--hue, 250));
   background: oklch(0.25 0.01 var(--hue, 250));
-  border-color: var(--liushen-card-border);
+  border-color: oklch(0.35 0.02 var(--hue, 250));
+  border-radius: 8px;
 }
-
 .dark .twikoo .tk-pagination button.active {
-  color: white;
-  background: var(--liushen-blue);
+  color: #fff;
+  background: var(--primary, oklch(0.65 0.2 var(--hue, 250)));
 }
 
 /* 管理员标识 */
 .dark .tkadmin {
-  color: var(--liushen-blue);
+  color: var(--primary, oklch(0.65 0.2 var(--hue, 250)));
 }
 
-/* 回复按钮 */
-.dark .twikoo .tk-reply {
-  color: oklch(0.65 0.02 var(--hue, 250));
+/* ======================== OwO 表情面板（深色） ======================== */
+.dark .OwO,
+.dark .OwO-body,
+.dark .OwO-box,
+.dark .OwO-items {
+  background: oklch(0.22 0.01 var(--hue, 250));
+  border-color: oklch(0.35 0.02 var(--hue, 250));
 }
-
-.dark .twikoo .tk-reply:hover {
-  color: var(--liushen-blue);
-}
-
-/* ======================== OwO 表情面板暗色模式 ======================== */
-
-/* OwO 主体 */
-.dark .OwO {
-  background: var(--liushen-card-bg);
-  border-color: var(--liushen-card-border);
-}
-
-.dark .OwO-body {
-  background: var(--liushen-card-bg);
-  border-color: var(--liushen-card-border);
-}
-
-/* OwO 分类栏 */
 .dark .OwO-bar {
   background: oklch(0.2 0.01 var(--hue, 250));
-  border-bottom-color: var(--liushen-card-border);
+  border-bottom-color: oklch(0.35 0.02 var(--hue, 250));
 }
-
-.dark .OwO-bar .OwO-tabs {
-  border-bottom-color: var(--liushen-card-border);
-}
-
 .dark .OwO-bar .OwO-tab {
   color: oklch(0.6 0.02 var(--hue, 250));
 }
-
-.dark .OwO-bar .OwO-tab:hover {
-  color: oklch(0.8 0.02 var(--hue, 250));
-}
-
 .dark .OwO-bar .OwO-tab.active {
-  color: var(--liushen-blue);
-  border-bottom-color: var(--liushen-blue);
+  color: var(--primary, oklch(0.65 0.2 var(--hue, 250)));
+  border-bottom-color: var(--primary, oklch(0.65 0.2 var(--hue, 250)));
 }
-
-/* OwO 分类标签 */
-.dark .OwO-bar a {
-  color: oklch(0.7 0.02 var(--hue, 250));
-}
-
-.dark .OwO-bar a:hover {
-  color: oklch(0.9 0.02 var(--hue, 250));
-}
-
-/* OwO 表情容器 */
-.dark .OwO-box {
-  background: var(--liushen-card-bg);
-}
-
-/* OwO 包裹 */
-.dark .OwO-packages {
-  background: oklch(0.2 0.01 var(--hue, 250));
-}
-
-.dark .OwO-packages span {
-  color: oklch(0.7 0.02 var(--hue, 250));
-}
-
-.dark .OwO-packages span:hover {
-  color: oklch(0.9 0.02 var(--hue, 250));
-}
-
-/* OwO 表情项目 */
-.dark .OwO-items {
-  background: var(--liushen-card-bg);
-}
-
-.dark .OwO-items-emoji {
-  background: var(--liushen-card-bg);
-}
-
-.dark .OwO-items-show {
-  background: oklch(0.25 0.01 var(--hue, 250));
-  color: oklch(0.8 0.01 var(--hue, 250));
-  border-color: var(--liushen-card-border);
-}
-
 .dark .OwO-item {
   color: oklch(0.8 0.01 var(--hue, 250));
 }
-
 .dark .OwO-item:hover {
   background: oklch(0.25 0.02 var(--hue, 250));
 }
 
-/* 评论区弹窗/下拉菜单 */
-.dark .el-dropdown-menu {
-  background: var(--liushen-card-bg);
-  border-color: var(--liushen-card-border);
+/* ======================== 响应式 ======================== */
+/* 窄屏隐藏设备信息 */
+@media screen and (max-width:570px) {
+  .tk-main .tk-extras { display: none; }
 }
-
-.dark .el-dropdown-menu__item {
-  color: oklch(0.8 0.01 var(--hue, 250));
+/* 超窄屏隐藏预览按钮 */
+@media screen and (max-width:420px) {
+  .tk-row.actions button.el-button.tk-preview { display: none; }
 }
-
-.dark .el-dropdown-menu__item:hover {
-  background: oklch(0.25 0.02 var(--hue, 250));
-  color: var(--liushen-blue);
-}
-
-/* OwO logo */
-.dark .OwO-logo {
-  color: oklch(0.7 0.02 var(--hue, 250));
-  background: oklch(0.2 0.01 var(--hue, 250));
-  border-color: var(--liushen-card-border);
-}
-
-.dark .OwO-logo:hover {
-  color: var(--liushen-blue);
-  background: oklch(0.25 0.02 var(--hue, 250));
-}
-
-/* 评论数量标题 */
-.dark .twikoo .tk-comments-title {
-  color: oklch(0.85 0.02 var(--hue, 250));
-}
-
-.dark .twikoo .tk-comments-title span {
-  color: oklch(0.55 0.01 var(--hue, 250));
-}
-
-.dark .twikoo .tk-comments-title a {
-  color: oklch(0.65 0.02 var(--hue, 250));
-}
-
-.dark .twikoo .tk-comments-title a:hover {
-  color: var(--liushen-blue);
-}
-/* 由于twikoo内部函数不宜修改，为了合适，去掉弹窗中的刷新按钮，该部分不需要，这是为了适配右键回复弹窗的内容的
-#popup #twikoo .tk-comments .tk-comments-container .tk-comments-title > span:nth-child(2) > span:nth-child(1) {
-	display: none;
-} */
-
-/* 暗色模式字数 / 预览 */
-.dark .twikoo .el-textarea__inner,
-.dark .twikoo .el-input__count {
-    color: oklch(0.7 0.03 var(--hue)) !important;
-}
-.dark .twikoo .tk-preview.el-button--default {
-    color: oklch(0.7 0.03 var(--hue));
-    border-color: oklch(0.4 0.02 var(--hue));
-}
-.dark .twikoo .tk-preview.el-button--default:hover {
-    color: oklch(0.85 0.05 var(--hue));
-    background: oklch(0.35 0.03 var(--hue));
-}
-.dark .twikoo .tk-preview-container {
-    color: oklch(0.8 0.03 var(--hue));
-    background: oklch(0.25 0.02 var(--hue));
-    border-radius: 12px;
-    padding: 12px;
-}
-
-/* 防止回复底部评论时表情面板被截断 */
-.twikoo .tk-comments-container,
-.twikoo .tk-comment {
-    overflow: visible !important;
-}
-/* 强覆盖外层容器 overflow-hidden (main 和 card-base) */
-#swup-container:has(.twikoo),
-.card-base:has(.twikoo) {
-    overflow: visible !important;
-}
-
-/* ========================twikoo美化====================== */
