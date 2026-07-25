@@ -165,4 +165,101 @@
 	display: none;
 } */
 
+/* ======================== 暗色模式文字颜色 ======================== */
+
+.dark .twikoo .tk-content,
+.dark .twikoo .tk-content p {
+  color: oklch(0.8 0.01 var(--hue, 250));
+}
+.dark .twikoo .tk-nick {
+  color: oklch(0.85 0.02 var(--hue, 250));
+}
+.dark .twikoo .tk-time {
+  color: oklch(0.55 0.01 var(--hue, 250));
+}
+.dark .twikoo .tk-tag {
+  background: oklch(0.3 0.02 var(--hue, 250));
+  color: oklch(0.75 0.02 var(--hue, 250));
+}
+.dark .twikoo .tk-input.el-textarea textarea,
+.dark .twikoo .tk-meta-input input,
+.dark .twikoo .tk-meta-input div {
+  color: oklch(0.85 0.01 var(--hue, 250));
+  background: oklch(0.18 0.01 var(--hue, 250));
+  border-color: var(--liushen-card-border);
+}
+.dark .twikoo .tk-row.actions button.el-button {
+  color: oklch(0.8 0.02 var(--hue, 250));
+}
+.dark .twikoo .tk-row.actions button.el-button:hover {
+  color: var(--liushen-blue);
+}
+.dark .twikoo .tk-quote {
+  border-left-color: oklch(0.4 0.02 var(--hue, 250));
+}
+.dark .twikoo .tk-extra {
+  color: oklch(0.55 0.01 var(--hue, 250));
+}
+.dark .twikoo .tk-pagination button {
+  color: oklch(0.7 0.02 var(--hue, 250));
+  background: oklch(0.25 0.01 var(--hue, 250));
+  border-color: var(--liushen-card-border);
+}
+.dark .twikoo .tk-pagination button.active {
+  color: white;
+  background: var(--liushen-blue);
+}
+.dark .tkadmin {
+  color: var(--liushen-blue);
+}
+.dark .twikoo .tk-reply {
+  color: oklch(0.65 0.02 var(--hue, 250));
+}
+.dark .twikoo .tk-reply:hover {
+  color: var(--liushen-blue);
+}
+.dark .twikoo .tk-comments-title {
+  color: oklch(0.85 0.02 var(--hue, 250));
+}
+.dark .twikoo .tk-comments-title span {
+  color: oklch(0.55 0.01 var(--hue, 250));
+}
+
+/* ======================== OwO 表情面板暗色模式 ======================== */
+.dark .OwO,
+.dark .OwO-body,
+.dark .OwO-box,
+.dark .OwO-items {
+  background: var(--liushen-card-bg);
+  border-color: var(--liushen-card-border);
+}
+.dark .OwO-bar {
+  background: oklch(0.2 0.01 var(--hue, 250));
+  border-bottom-color: var(--liushen-card-border);
+}
+.dark .OwO-bar .OwO-tab {
+  color: oklch(0.6 0.02 var(--hue, 250));
+}
+.dark .OwO-bar .OwO-tab.active {
+  color: var(--liushen-blue);
+  border-bottom-color: var(--liushen-blue);
+}
+.dark .OwO-item {
+  color: oklch(0.8 0.01 var(--hue, 250));
+}
+.dark .OwO-item:hover {
+  background: oklch(0.25 0.02 var(--hue, 250));
+}
+.dark .OwO-bar a {
+  color: oklch(0.7 0.02 var(--hue, 250));
+}
+.dark .OwO-packages span {
+  color: oklch(0.7 0.02 var(--hue, 250));
+}
+.dark .OwO-logo {
+  color: oklch(0.7 0.02 var(--hue, 250));
+  background: oklch(0.2 0.01 var(--hue, 250));
+  border-color: var(--liushen-card-border);
+}
+
 /* ========================twikoo美化====================== */
