@@ -144,8 +144,12 @@
   border-color: var(--liushen-card-border);
 }
 
+.dark .twikoo .tk-expand {
+  color: oklch(0.8 0.01 var(--hue, 250));
+}
 .dark .twikoo .tk-expand:hover {
   background-color: var(--liushen-blue);
+  color: white;
 }
 
 /* 分类卡片移动端个人信息卡片只显示两个 */
@@ -181,12 +185,25 @@
   background: oklch(0.3 0.02 var(--hue, 250));
   color: oklch(0.75 0.02 var(--hue, 250));
 }
-.dark .twikoo .tk-input.el-textarea textarea,
-.dark .twikoo .tk-meta-input input,
+.dark .twikoo .tk-input.el-textarea textarea {
+  color: oklch(0.85 0.01 var(--hue, 250));
+  background: oklch(0.18 0.01 var(--hue, 250));
+  border-color: var(--liushen-card-border);
+  border-radius: 12px;
+}
+.dark .twikoo .tk-meta-input input {
+  color: oklch(0.85 0.01 var(--hue, 250));
+  background: oklch(0.18 0.01 var(--hue, 250));
+  border-color: var(--liushen-card-border);
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
 .dark .twikoo .tk-meta-input div {
   color: oklch(0.85 0.01 var(--hue, 250));
   background: oklch(0.18 0.01 var(--hue, 250));
   border-color: var(--liushen-card-border);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 .dark .twikoo .tk-row.actions button.el-button {
   color: oklch(0.8 0.02 var(--hue, 250));
